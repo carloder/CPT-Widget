@@ -1,0 +1,21 @@
+Soil Model - 0=Mohr-Coulomb, 1=NorSand
+1
+NumNodes, Strain(%), incU
+121         500.     4.0e-5
+toler, fmaxtol, tstepfac
+2.e-5     0.1   0.05
+MaxRadius
+500.
+Mcrit  Ncrit  lambda(log_e)  Gamma(@1kPa)  Pref(1kPa)   chi
+1.36   0.45     0.107          1.435        1.0        2.0
+h0      Hy
+20.0   125.0  
+OCR
+1.15
+Gpower Poisson's ratio
+0.6     0.10
+poremod
+1.e6
+istart istop
+1	56
+
